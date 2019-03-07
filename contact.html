@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>portfolio Ayumu Kamiya Photography</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+      <script src="js/common.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <!-- smart-phone-menu--------------------- -->
+        <div class="sp-logo">
+              <h1><a href="home.html">A.K. SENDAI</a></h1>
+        </div>
+        <div class="sp-menu">
+          <a></a>
+        </div>
+
+        <!-- common-menu************************* -->
+        <ul>
+          <li><a href="home.html"><span class="in">Home</span></a></li>
+          <li><a href="portfolio.html"><span class="in">Portfolio</span></a></li>
+          <li><a href="profile.html"><span class="in">Profile</span></a></li>
+          <li><a href="contact.html"><span class="in">Contact</span></a></li>
+        </ul>
+      </div>
+      <div class="clear-fix"></div>
+    </header>
+
+    <div class="mainvidual">
+      <h1 class="contact-title">Contact</h1>
+
+
+<div class="contact-wrapper">
+      <div class="txt-container">
+          <p>撮影のご依頼等ありましたらお気軽にご連絡ください。
+<br>
+※インスタグラムからフォロー後にご連絡いただいた方が<br>
+返信早いかもしれません。
+<br>
+<br>
+市内の駅までであれば車でお迎えに上がります。</p>
+<h3 class="instagram">
+<a href="https://www.instagram.com/ayumu.kamiya/"><span class="in">Instagram (ayumu.kamiya)<span></a>
+</h3>
+      </div>
+
+      <div class="form-container">
+
+      <form class="form" >
+        <dl class="input-form">
+          <dt class="input-ttl">
+            <label for="fName"><p class="form-sub-ttl first" size="40">Name</p></label>
+          </dt>
+          <dd class="input-content">
+            <input type="text" name="name" id="fName">
+          </dd>
+        </dl>
+
+        <dl class="input-form">
+          <dt class="input-ttl">
+            <label for="fMail"><p class="form-sub-ttl">E-mail<p></label>
+          </dt>
+          <dd class="input-content">
+            <input type="text" name="mail" id="fMail">
+          </dd>
+        </dl>
+
+        <dl class="input-form">
+          <dt class="input-ttl">
+            <label for="fContent"><p class="form-sub-ttl">内容<p></label>
+          </dt>
+          <dd class="input-content">
+            <textarea  name="content" id="fContent" cols="30" rows="10"></textarea>
+          </dd>
+        </dl>
+        <ul class="submit">
+          <li><button name="submit">送信</button></li>
+        </ul>
+      </form>
+    </div>
+
+    </div>
+  </div>
+
+<!-- wordpressのコンタクトフォームができたら貼り付け -->
+  <!-- <div class="form-container">
+      <form class="form" >
+    <div role="form" class="wpcf7" id="wpcf7-f57-o1" lang="ja" dir="ltr">
+<form action="/wordpress/contact/#wpcf7-f57-o1" method="post" class="wpcf7-form invalid" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="57" />
+<input type="hidden" name="_wpcf7_version" value="5.1.1" />
+<input type="hidden" name="_wpcf7_locale" value="ja" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f57-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="g-recaptcha-response" value="" />
+</div>
+<dl class="input-form">
+<dt class="input-ttl">
+            <label for="fName">
+<p class="form-sub-ttl first" size="40">Name</p>
+<p></label>
+          </dt>
+<dd class="input-content">
+<span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required wpcf7-not-valid textsp" aria-required="true" aria-invalid="true" placeholder="your-name" /><span role="alert" class="wpcf7-not-valid-tip">必須項目に入力してください。</span></span></p>
+</dd>
+</dl>
+<dl class="input-form">
+<dt class="input-ttl">
+            <label for="fMail">
+<p class="form-sub-ttl">E-mail
+<p></label>
+          </dt>
+<dd class="input-content">
+<span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email wpcf7-not-valid mailsp" aria-required="true" aria-invalid="true" placeholder="your-email" /><span role="alert" class="wpcf7-not-valid-tip">必須項目に入力してください。</span></span></p>
+</dd>
+</dl>
+<dl class="input-form">
+<dt class="input-ttl">
+            <label for="fContent">
+<p class="form-sub-ttl">内容
+<p></label>
+          </dt>
+<dd class="input-content">
+<span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required wpcf7-not-valid content" aria-required="true" aria-invalid="true" placeholder="問い合わせ内容"></textarea><span role="alert" class="wpcf7-not-valid-tip">必須項目に入力してください。</span></span>
+          </dd>
+</dl>
+<ul class="submit">
+<li><button><br />
+<input type="submit" value="送信" class="wpcf7-form-control wpcf7-submit" id="button" /><br />
+</button>
+</li>
+</ul>
+<div class="wpcf7-response-output wpcf7-validation-errors" role="alert">入力内容に問題があります。確認して再度お試しください。</div></form></div>  </div>
+  </form>
+  </div>-->
+  </div>
+
+  </body>
+</html>
